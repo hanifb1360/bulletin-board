@@ -1,9 +1,7 @@
-import React from 'react'
-
-function PostLiked() {
+const LikedMessage = () => {
   return (
-    <div>PostLiked</div>
+      <p className="likedMsg">Yoohoo! You have liked this post!</p>
   )
 }
 
-export default PostLiked
+export default LikedMessage
